@@ -1,0 +1,84 @@
+
+    :root {
+      --brand: #2f6cef;
+      --accent: #07b6d5;
+      --muted: #6b7280
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #111;
+      background: #fff
+    }
+
+    .navbar-brand {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700
+    }
+
+    .hero {
+      padding: 100px 0;
+      background: linear-gradient(180deg, rgba(37, 99, 235, 0.06), transparent)
+    }
+
+    .card-service {
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 8px 30px rgba(20, 20, 50, 0.06)
+    }
+
+    .feature-icon {
+      width: 64px;
+      height: 64px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(37, 99, 235, 0.08);
+      font-size: 22px;
+      color: var(--brand)
+    }
+
+    .pricing {
+      background: #f8fafc
+    }
+
+    .team img {
+      border-radius: 12px
+    }
+
+    footer {
+      background: #0b1220;
+      color: #cbd5e1;
+      padding: 40px 0
+    }
+
+    .btn-primary {
+      background: var(--brand);
+      border: none
+    }
+
+    @media (max-width:767px) {
+      .hero {
+        padding: 60px 0
+      }
+    }
+
+    html,
+    body {
+      overflow-x: hidden;
+    }
+
+    img,
+    .card {
+      max-width: 100%;
+      overflow: hidden;
+    }
+
+    
+      .footer-logo {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700
+    }
+    
+ 
